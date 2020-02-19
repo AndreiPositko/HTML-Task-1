@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>task-1</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" 
+	integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+	crossorigin="anonymous">
 </head>
 <body>
 	<header class="page-header header">
@@ -16,6 +20,7 @@
 				<li class="header__title--item">Tell us about the advantages and merits</li>
 				<li class="header__title--item">Associate the page with the payment system</li>
 			</ul>
+
 		</div>
 		<div class="header__img">
 			<img src="img/header-img.jpg" width="470" height="217" alt="Фото продукта">
@@ -24,11 +29,9 @@
 
 	<main class="page-main">
 
-		<section class="description">
-			<h2 class="description__title">
-				About your product
-			</h2>
-			<div class="description__wrapper">
+		<div class="description">
+			<div class="description__content">
+				<h2 class="description__title">About your product</h2>
 				<p class="description__text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.
 				</p>
@@ -39,7 +42,7 @@
 			<div class="description__img">
 				<img src="img/description-video.jpg" width="430" height="245" alt="Описание продукта">
 			</div>
-		</section>
+		</div>
 
 		<section class="dignity">
 			<h2 class="dignity__title">Dignity and pluses product</h2>
@@ -257,37 +260,37 @@
 				<button class="button contacts__button" type="submit">Send</button>
 
 				<div class="social">
-					
+					<ul class="social__info">
+						<li class="social__info--item">
+							<p>here_your_login_skype</p>
+						</li>
+						<li class="social__info--item">
+							<p>279679659</p>
+						</li>
+						<li class="social__info--item">
+							<p>psdhtmlcss@mail.ru</p>
+						</li>
+						<li class="social__info--item">
+							<p>80 00 4568 55 55</p>
+						</li>
+					</ul>
+					<ul class="social__buttons">
+						<li><a class="social__button" href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a class="social__button" href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a class="social__button" href="#"><i class="fab fa-invision"></i></a></li>
+						<li><a class="social__button" href="#"><i class="fab fa-glide-g"></i></a></li>
+						<li><a class="social__button" href="#"><i class="fab fa-youtube"></i></a></li>
+					</ul>
 				</div>
 			</div>
 		</section>
 	</main>
-	<footer class="page-footer footer">
+	
+	<footer class="footer">
 		<div class="footer__wrapper">
-			<ul class="social__info">
-				<li class="social__info--item">
-					<p>here_your_login_skype</p>
-				</li>
-				<li class="social__info--item">
-					<p>279679659</p>
-				</li>
-				<li class="social__info--item">
-					<p>psdhtmlcss@mail.ru</p>
-				</li>
-				<li class="social__info--item">
-					<p>80 00 4568 55 55</p>
-				</li>
-			</ul>
-			<ul class="social__buttons">
-				<li>
-					<a class="social__button" href="#">
-						
-					</a>
-				</li>
-				<li><a class="social__button" href="#"><i class="fab fa-instagram"></i></a></li>
-				<li><a class="social__button" href="#"></li>
-				<li><a class="social__button" href="#"></li>
-			</ul>
+			<p class="footer__copyright">
+				Copyright &copy; 2014 Product name · PSD HTML CSS
+			</p>
 		</div>
 	</footer>
 </body>
