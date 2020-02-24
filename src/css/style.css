@@ -43,7 +43,6 @@ img {
 
 .header-title {
 	width: 50%;
-	padding-right: 0 50px;
 }
 
 .header-title__name {
@@ -107,6 +106,10 @@ img {
 	margin-bottom: 35px;
 }
 
+.description__text:last-child {
+	margin-bottom: 0;
+}
+
 .description__text {
 	margin-bottom: 25px;
 }
@@ -131,6 +134,7 @@ img {
 .dignity__item {
 	position: relative;
 	max-width: 590px;
+	width: 50%;
 	padding-bottom: 40px;
 }
 
@@ -169,14 +173,14 @@ img {
 }
 
 .scrinshots {
-	width: 100%
-	padding: 50px;
+
+	padding: 50px 0;
 }
 
 .scrinshots__title {
 	font-size: 30px;
 	text-align: center;
-	padding: 35px 0;
+	margin-bottom: 35px;
 }
 
 .scrinshots-item__title {
@@ -187,6 +191,11 @@ img {
 	width: 50%;
 	display: flex;
 	margin-bottom: 30px;
+}
+
+.scrinshots-item:nth-child(3),
+.scrinshots-item:nth-child(4) {
+	margin-bottom: 0;
 }
 
 .scrinshots__img {
@@ -278,7 +287,7 @@ img {
 .price-item {
 	max-width: 300px;
 	margin-right: 50px;
-	padding: 20px 0;
+	padding: 20px 3px;
 	text-align: center;
 	border-radius: 7px;
 	background-color: #445162;
@@ -297,8 +306,9 @@ img {
 
 .price__number {
 	display: inline-block;
+	width: 100%;
 	font-size: 40px;
-	padding: 15px 102px 15px 102px;
+	padding: 15px 0;
 	margin-bottom: 20px;
 	background-color: #ffffff;
 	color: #445162;
@@ -419,8 +429,6 @@ img {
 	height: 50px;
 	position: relative;
 	color: #445162;
-
-	border: 1px solid red;
 }
 
 .font__icon::after{
@@ -433,8 +441,6 @@ img {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-
-	border: 1px solid green;
 }
 .font__icon::before{
 	position: absolute;
@@ -443,8 +449,6 @@ img {
 	transform: translate(-50%,-50%);
 	z-index: 2;
 	font-size: 22px;
-
-	border: 1px solid black;
 }
 
 .social__items {
@@ -455,3 +459,4 @@ img {
 	text-align: center;
 	margin-bottom: 10px;
 }
+
